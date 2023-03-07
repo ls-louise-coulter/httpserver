@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="httpserver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/httpserver_jar</output-path>
+    <root id="archive" name="httpserver.jar">
+      <element id="module-output" name="httpserver" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.33.v20201020/jetty-util-9.4.33.v20201020.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.35.v20201120/jetty-server-9.4.35.v20201120.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/9.4.35.v20201120/jetty-http-9.4.35.v20201120.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.35.v20201120/jetty-io-9.4.35.v20201120.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
